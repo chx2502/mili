@@ -2,7 +2,7 @@ version: "3"
 
 services:
   nginx:
-    image: registry.cn-shanghai.aliyuncs.com/chx2502/mili:v1.0.0
+    image: registry.cn-shanghai.aliyuncs.com/chx2502/mili:v1.0.2
     restart: always
     ports:
       - "3001:80"
