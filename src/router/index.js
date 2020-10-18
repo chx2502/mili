@@ -28,6 +28,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "post" */ "../views/PostVideo.vue")
   },
+  {
+    path: "/video/:videoID",
+    name: "showVideo",
+    component: () =>
+      import(/* webpackChunkName: "video" */ "../views/ShowVideo.vue")
+  },
 ];
 
 const router = new VueRouter({
